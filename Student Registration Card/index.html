@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Student Registration Card</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+
+
+  <div class="card">
+    <h2 id="welcomeMessage">Welcome, La Verdarian!</h2>
+
+    <form id="studentForm">
+      <div class="form-group">
+        <label for="nameInput">Full Name:</label>
+        <input type="text" id="nameInput" placeholder="Enter name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="courseSelect">Course:</label>
+        <select id="courseSelect" required>
+          <option value="">Select Course</option>
+          <option value="BS Information Systems">BS Information Systems</option>
+          <option value="BS Social Work">BS Social Work</option>
+          <option value="BA Broadcasting">BA Broadcasting</option>
+          <option value="BS Accountancy">BS Accountancy</option>
+        </select>
+      </div>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="registrationResult"></p>
+  </div>
+
+</body>
+</html>

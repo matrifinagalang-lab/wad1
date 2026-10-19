@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  padding-top: 20px;
+  padding-left: 515px;
+  background-image: url(SchoolBuildinginBlur.svg);
+
+}
+
+body.dark {
+  background-color: #000000;
+}
+
+.card {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #033c88;
+  border-radius: 8px;
+  margin-top: 150px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
